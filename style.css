@@ -1,0 +1,240 @@
+    @charset  "UTF-8";  
+     
+     
+     body{ 
+  margin: 0;
+  background: url(img/planodefundo.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #E6E6E6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+
+       header {
+      padding: 0%;
+      text-align: center;
+      
+      font-size: larger;
+    }
+
+    header h1 {
+        font-family: 'Press Start 2P', cursive, Arial, sans-serif;
+          color: #0606f1;
+           text-shadow: 
+            0 0 5px #0026ff, 
+            0 0 10px #0026ff,
+            0 0 20px #0026ff,;
+          background: linear-gradient(90deg, #1a1a1a 0%, #370cd3a8 50%, #1a1a1a 100%);
+           padding: 30px;
+        border: 2px solid #1d06ee; 
+        
+        text-align: center;
+        letter-spacing: 2px;
+        margin: 30px auto;
+        max-width: 80%;
+        position: relative;
+        animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {   from {
+            box-shadow: 0 0 5px #200cd3be;
+        }
+        to {
+            box-shadow: 0 0 20px #200cd3b7, 0 0 30px #200cd3;
+        }
+    }
+        
+
+    nav {
+      background-color: #1010207c;
+      padding: 10px;
+      text-align: center;
+      
+    }
+
+    nav a {
+      color: #66CCFF;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: large;
+    }
+
+    nav a:hover {
+      color: #E6E6E6;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: #1a1a2e;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #0072CE55;
+    }
+
+    h2 {
+      color: #66CCFF;
+    }
+
+
+    .galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 0 11px;
+}
+
+
+
+
+.jogo {
+  text-align: center;
+  background-color: #1a1a2e;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0072CE55;
+}
+
+.jogo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #000;
+}
+
+.jogo p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+  
+  
+         
+
+       p{
+        text-decoration: underline;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }   
+
+       ul{
+          font-weight: bold;
+          text-decoration: solid;
+       }
+       
+       li{
+        font-style: italic;
+       }
+
+      
+
+   /* footer {
+      background-color: #000000;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #E6E6E6;
+    } */
+
+
+
+       footer {
+      margin-top: 60px;
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      color: #888;
+      font-size: 14px;
+    }
+
+
+    .botao-download {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0028aa;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.botao-download:hover {
+  background-color: #007b75;
+}
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+
+
+
+
+:root{
+    --cor1:#0026ff;
+    --cor2:#202040;
+    --cor3:#200cd3be;
+    --cor4:#200cd3b7;
+    --cor5:#200cd3;
+    --cor6:#66CCFF;
+    --cor7:#E6E6E6;
+    --cor8:#1a1a2e;
+    --cor9:#0072CE55;
+    --cor10:#007b75;
+    /*Serve como exemplo por aqui eu posso trocar as cores do site onde qualquer cor que esteje envolvida aqui eu altero no codigo também*/
+}       
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; 
+  padding-top: 25px;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0072CE55;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+
+
+
+/*  body{ margin: 0;
+      background: linear-gradient(to bottom, #000000, #202040);
+      color: #E6E6E6;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        (ESTE E UM PADRÃO QUE EU TINHA FEITO ANTES CASO EU QUERA VOLTAR COM ELE TIRANDO A IMAGEM DE FUNDO
+*/
+
+
+
+
+
+/* header {
+      background-color: #000000;
+      padding: 0%;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      font-size: larger;
+        (ESSE TAMBÉM UM PADRÃO TOP  }*/
